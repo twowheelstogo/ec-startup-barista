@@ -28,9 +28,9 @@ endef
 # Projects will be started in this order
 define SUBPROJECT_REPOS
 
-git@github.com:twowheelstogo/ec-api-barista.git,ec-api,trunk \
-git@github.com:twowheelstogo/ec-admin-barista.git,ec-admin,trunk \
-git@github.com:twowheelstogo/ec-storefront-barista.git,ec-storefront,trunk
+git@github.com:twowheelstogo/ec-api-barista.git,cb-api,trunk \
+git@github.com:twowheelstogo/ec-admin-barista.git,cb-admin,trunk \
+git@github.com:twowheelstogo/ec-storefront-barista.git,cb-storefront,trunk
 
 endef
 
